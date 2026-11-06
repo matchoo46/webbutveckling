@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kost</title>
+</head>
+<body>
+<header>
+    <h1>Näringskällor</h1>
+</header>
+    
+<main>
+    <h2>Kött och animaliska produkter</h2>
+
+    <h3>Nötkött</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Innanlår(lövbiff)</td>
+                <td data-value="108">~108 kcal</td>
+                <td data-value="22.2">~22 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2">~2 g</td>
+            </tr>
+            
+            <tr>
+                <td>Rostbiff</td>
+                <td data-value="113">~113 kcal</td>
+                <td data-value="22.3">~22.3 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.7">~2.7 g</td>
+            </tr>
+
+            <tr>
+                <td>Nötfärs 5%</td>
+                <td data-value="122">~122 kcal</td>
+                <td data-value="21.3">~21.3 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="5">5 g</td>
+            </tr>
+
+            <tr>
+                <td>Oxfilé</td>
+                <td data-value="124">124 kcal</td>
+                <td data-value="21.2">21.2 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="4.3">4.3 g</td>
+            </tr>
+
+            <tr>
+                <td>Ytterlår</td>
+                <td data-value="109">109 kcal</td>
+                <td data-value="21.8">21.8 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.4">2.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Fransyska</td>
+                <td data-value="111">111 kcal</td>
+                <td data-value="22.1">22.1 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.5"> g</td>
+            </tr>
+
+            <tr>
+                <td>Nötstek</td>
+                <td data-value="112">112 kcal</td>
+                <td data-value="22">22 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.7">2.7 g</td>
+            </tr>
+
+            <tr>
+                <td>Flankstek</td>
+                <td data-value="141">141 kcal</td>
+                <td data-value="21.5">21.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="6.1">6.1 g</td>
+            </tr>
+
+            <tr>
+                <td>Ryggbiff</td>
+                <td data-value="143">143 kcal</td>
+                <td data-value="21.8">21.8 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="6.2">6.2 g</td>
+            </tr>
+
+            <tr>
+                <td>Grytbitar</td>
+                <td data-value="115">115 kcal</td>
+                <td data-value="21.5">21.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="3.2">3.2 g</td>
+            </tr>
+
+            <tr>
+                <td>Bog/märgpipa</td>
+                <td data-value="116">116 kcal</td>
+                <td data-value="21.1">21.1 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="3.5">3.5 g</td>
+            </tr>
+
+            <tr>
+                <td>Nötfärs 12%</td>
+                <td data-value="168">168 kcal</td>
+                <td data-value="19.4">19.4 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="12">12 g</td>
+            </tr>
+
+            <tr>
+                <td>Högrev</td>
+                <td data-value="171">171 kcal</td>
+                <td data-value="19.2">19.2 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="10.5">10.5 g</td>
+            </tr>
+
+            <tr>
+                <td>Clubsteak</td>
+                <td data-value="198">198 kcal</td>
+                <td data-value="19.5">19.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="13.4">13.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Nötfärs 20%</td>
+                <td data-value="241">241 kcal</td>
+                <td data-value="17.6">17.6 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="20">20 g</td>
+            </tr>
+
+            <tr>
+                <td>Oxsvans</td>
+                <td data-value="214">214 kcal</td>
+                <td data-value="19.1">19.1 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="15.3">15.3 g</td>
+            </tr>
+                   
+            <tr>
+                <td>Oxbringa</td>
+                <td data-value="110">110 kcal</td>
+                <td data-value="21.2">21.2 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.8">2.8 g</td>
+            </tr>
+
+            <tr>
+                <td>Entrecôte</td>
+                <td data-value="194">194 kcal</td>
+                <td data-value="19.8">19.8 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="12.8">12.8 g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Rent griskött</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fläskfilé</td>
+                <td data-value="106">106 kcal</td>
+                <td data-value="21">21 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="2.4">2.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Fläskytterfilé</td>
+                <td data-value="115">115 kcal</td>
+                <td data-value="21.1">21.1 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="3.4">3.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Skinka/Skinkstek</td>
+                <td data-value="107">107 kcal</td>
+                <td data-value="21.5">21.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="3">3 g</td>
+            </tr>
+
+            <tr>
+                <td>Fläskkotlett, mager</td>
+                <td data-value="125">125 kcal</td>
+                <td data-value="20.5">20.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="4.8">4.8 g</td>
+            </tr>
+
+            <tr>
+                <td>Fläskfärs 10%</td>
+                <td data-value="160">160 kcal</td>
+                <td data-value="18">18 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="10">10 g</td>
+            </tr>
+
+            <tr>
+                <td>Bog</td>
+                <td data-value="143">143 kcal</td>
+                <td data-value="19">19 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="7.4">7.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Fläskfärs 20%</td>
+                <td data-value="236">236 kcal</td>
+                <td data-value="15.3">15.3 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="20">20 g</td>
+            </tr>
+
+            <tr>
+                <td>Fläskkarré</td>
+                <td data-value="181">181 kcal</td>
+                <td data-value="18.4">18.4 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="11.9">11.9 g</td>
+            </tr>
+
+            <tr>
+                <td>Flintastek</td>
+                <td data-value="170">170 kcal</td>
+                <td data-value="18.5">18.5 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="10.5">10.5 g</td>
+            </tr>
+
+            <tr>
+                <td>Revbenspjäll</td>
+                <td data-value="238">238 kcal</td>
+                <td data-value="17.2">17.2 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="18.8">18.8 g</td>
+            </tr>
+
+            <tr>
+                <td>Sidfläsk</td>
+                <td data-value="326">326 kcal</td>
+                <td data-value="15.2">15.2 g</td>
+                <td data-value="0">0 g</td>
+                <td data-value="29.4">29.4 g</td>
+            </tr>
+
+            <tr>
+                <td>Bacon, rökt/rimmat</td>
+                <td data-value="335">335 kcal</td>
+                <td data-value="13.5">13.5 g</td>
+                <td data-value="0">0.5 g</td>
+                <td data-value="31">31 g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Charkprodukter av gris</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rökt skinka</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kokt skinka</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kassler</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Prosciutto</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Julskinka</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Skinkstek som pålägg</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Bacon</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Pancetta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Salami</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Chorizo</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Prinskorv</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Falukorv</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Kyckling</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kycklingbröst</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kycklinginnerfilé</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kycklingfilé</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kycklingfärs, mager</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kycklinglår</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kycklingklubba</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Fisk</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tonfisk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Torsk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sej</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Hälleflundra</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Abborre</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Gös</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Gädda</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Rödspätta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kummel</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Tilapia</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Svärdfisk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Regnbåge</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Lax</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Makrill</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sardiner</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sill</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Ål</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Skaldjur</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Räkor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Krabba</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Hummer</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kräftor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Bläckfisk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Pilgrimsmusslor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Musslor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Ostron</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Ägg</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hela ägg</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Äggvita</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Äggula</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Växtbaserade proteinkällor</h2>
+
+    <h3>Baljväxter och växtbaserade proteinprodukter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seitan</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Tofu</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Tempeh</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sojabönor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Edamame</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Linser</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Svarta bönor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kidneybönor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Vita bönor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kikärtor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Gröna ärtor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Nötter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jordnötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Mandlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Pistagenötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Cashewnötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Hasselnötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Valnötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Paranötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Macadamianötter</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Frön</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hampafrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Pumpafrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Solrosfrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sesamfrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Chiafrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Linfrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Vallmöfrön</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Kolhydratskällor</h2>
+
+    <h3>Ris och Gryn</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jasminris</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Korngryn</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Basmatiris</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fullkornsris</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Råris</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Matvete</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Couscous</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>quinoa</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Bulgur</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Pasta och nudlar</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Färsk pasta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Torkad pasta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fullkornspasta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Udonnudlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Äggnudlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Risnudlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Glasnudlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sobanudlar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Potatis och rotfrukter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sötpotatis</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Palsternacka</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Potatis</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Jordärtskocka</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Rödbeta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Morot</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Rotselleri</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kålrot</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Bröd</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Knäckebröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Pitabröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Tortillabröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Bagel</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fralla</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Vitt bröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Surdegsbröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fullkornsbröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Rågbröd</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Havre och frukostprodukter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cornflakes</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fullkornsflingor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Müsli</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Havregryn</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Granola</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Havrekli</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+ 
+    <h3>Frukt och bär</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banan</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Vindruvor</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Päron</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Mango</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kiwi</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Blåbär</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Äpple</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Ananas</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Apelsin</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Hallon</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Björnbär</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Jordgubbar</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>    
+
+    <h2>Mejeriprodukter</h2>
+
+    <h3>Mjölk och yogurt</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Skyr, naturell</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Grekisk yogurt</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Naturell yogurt</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Turkisk yogurt</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Lättmjölk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Mellanmjölk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Standardmjölk</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Kvarg och keso</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kvarg, mager</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kvarg, fetare</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Keso 0.2%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Keso, original</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Grädde och syrade produkter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vispgrädde 40%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Matlagningsgrädde 15%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Crème fraîche 34%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Crème fraîche 15%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Gräddfil</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Ost</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Parmesan</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Hårdost 28%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Halloumi</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Mozzarella</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Brie</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Fetaost</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Ricotta</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Färskost</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Oljor och matfetter</h3>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Livsmedel</th>
+                <th onclick="sorteraTabell(this, 1)">Kalorier</th>
+                <th onclick="sorteraTabell(this, 2)">Protein</th>
+                <th onclick="sorteraTabell(this, 3)">Kolhydrater</th>
+                <th onclick="sorteraTabell(this, 4)">Fett</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rapsolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Olivolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Avokadoolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Solrosolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Majsolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Sesamolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Jordnötsolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Kokosolja</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Smör</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Margarin, 80%</td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+            <tr>
+                <td>Lättmargarin, ~40%  </td>
+                <td data-value=""> kcal</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+                <td data-value=""> g</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+</main>
+</body>
+</html>
