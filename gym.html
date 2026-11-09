@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+
+<header class="top-header">
+    <div class="site-title">
+        <img src="bilder/logo.png" alt="Guide till gym och kost">
+    </div>
+
+
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="gym.html">Gym</a>
+        <a href="kost.html">Kost</a>
+    </nav>
 </header>
-<nav>
-    <a href="index.html">Hem</a>
-    <a href="kost.html">Kost</a>
-    <a href="gym.html">Gym</a>
-</nav>
+
 <main>
+    <h1>Gym och träning</h1>
     <h2>Introduktion/tips</h2>
     <p>
         När det kommer till hur man utför en övning optimalt och säkert beror det mycket
@@ -50,20 +59,124 @@
     </p>
     <h4>övre bröst</h4>
     <ul>
-        <li>Incline bench press</li>
-        <li>Low to high chest fly</li>
-        <li>Chess press maskin åt sidan</li>
+        <li>
+            Incline barbell bench press
+            <button onclick="visaVideo('video-incline')">Visa video</button>
+
+            <div id="video-incline" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SrqOu55lrYU"
+                    title="Incline bench press"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Low to high chest fly
+            <button onclick="visaVideo('video-low-to-high')">Visa video</button>
+
+            <div id="video-low-to-high" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eQ_NBB6OBH4"
+                    title="Low to high chest fly"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Chess press maskin åt sidan
+            <button onclick="visaVideo('video-chest-press-maskin')">Visa video</button>
+
+            <div id="video-chest-press-maskin" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/jSuDZxWtDrI"
+                    title="Chest press maskin åt sidan"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>nedre bröst</h4>
     <ul>
-        <li>Dips</li>
-        <li>Decline smith press</li>
-        <li>High to low fly</li>
+        <li>
+            Dips
+            <button onclick="visaVideo('video-dips')">Visa video</button>
+
+            <div id="video-dips" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/vi1-BOcj3cQ"
+                    title="Dips"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Decline smith press
+            <button onclick="visaVideo('video-decline')">Visa video</button>
+
+            <div id="video-decline" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xs6Eux3zaE0"
+                    title="Decline smith press"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            High to low fly
+            <button onclick="visaVideo('video-high-to-low')">Visa video</button>
+
+            <div id="video-high-to-low" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8Um35Es-ROE"
+                    title="High to low fly"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>Hela bröstet</h4>
     <ul>
-        <li>Hantelpress</li>
-        <li>Maskinpress</li>
+        <li>
+            Hantelpress
+            <button onclick="visaVideo('video-hantelpress')">Visa video</button>
+
+            <div id="video-hantelpress" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SzcSrpVr0GA"
+                    title="Hantelpress"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Maskinpress
+            <button onclick="visaVideo('video-maskinpress')">Visa video</button>
+
+            <div id="video-maskinpress" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/zgP-UCKGe24"
+                    title="Maskinpress"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
 
@@ -78,19 +191,110 @@
     </p>
     <h4>lats</h4>
     <ul>
-        <li>Lat pulldown</li>
-        <li>Pull ups</li>
+        <li>
+            Lat pulldown
+            <button onclick="visaVideo('video-lat-pulldown')">Visa video</button>
+
+            <div id="video-lat-pulldown" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SALxEARiMkw"
+                    title="Lat pulldown"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Pull ups
+            <button onclick="visaVideo('video-pull-ups')">Visa video</button>
+
+            <div id="video-pull-ups" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/sIvJTfGxdFo"
+                    title="Pull ups"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>övre rygg</h4>
     <ul>
-        <li>Seated cable row</li>
-        <li>Chest supported row</li>
-        <li>Barbell row</li>
+        <li>
+            Seated cable row
+            <button onclick="visaVideo('video-cable-row')">Visa video</button>
+
+            <div id="video-cable-row" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/vwHG9Jfu4sw"
+                    title="Seated cable row"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Chest supported row
+            <button onclick="visaVideo('video-chest-row')">Visa video</button>
+
+            <div id="video-chest-row" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/vmX58YYK3-8"
+                    title="Chest supported row"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Barbell row
+            <button onclick="visaVideo('video-barbell-row')">Visa video</button>
+
+            <div id="video-barbell-row" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/FWJR5Ve8bnQ"
+                    title="Barbell row"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>nedre rygg</h4>
     <ul>
-        <li>Back extensions</li>
-        <li>Rack pull</li>
+        <li>
+            Back extensions
+            <button onclick="visaVideo('video-extensions')">Visa video</button>
+
+            <div id="video-extensions" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ph3pddpKzzw"
+                    title="Back extensions"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Rack pull
+            <button onclick="visaVideo('video-rack-pull')">Visa video</button>
+
+            <div id="video-rack-pull" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/aAjN8zS7Idg"
+                    title="Rack pull"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
 
@@ -103,42 +307,97 @@
     </p>
     <h4>front delts(framsida axel)</h4>
     <ul>
-        <li>Front raises</li>
-        <li>Seated shoulder press?</li>
+        <li>
+            Front raises
+            <button onclick="visaVideo('video-front-raises')">Visa video</button>
+
+            <div id="video-front-raises" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/-t7fuZ0KhDA"
+                    title="Front raises"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Seated shoulder press
+            <button onclick="visaVideo('video-seated-shoulder-press')">Visa video</button>
+
+            <div id="video-seated-shoulder-press" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/rO_iEImwHyo"
+                    title="Shoulder press"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>mid delts(sidoaxel)</h4>
     <ul>
-        <li>Lateral raises, dumbbell/cable</li>
-        <li>Overhead varbell press</li>
+        <li>
+            Lateral raises, dumbbell/cable
+            <button onclick="visaVideo('video-lateral-raises')">Visa video</button>
+
+            <div id="video-lateral-raises" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/v_ZkxWzYnMc"
+                    title="Lateral raises"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Overhead barbell press
+            <button onclick="visaVideo('video-overhead-press')">Visa video</button>
+
+            <div id="video-overhead-press" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/_RlRDWO2jfg"
+                    title="Overhead barbell press"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>rear delts(baksida axlar)</h4>
     <ul>
-        <li>Rear delt cable fly</li>
-        <li>Face pull</li>
+        <li>
+            Rear delt pec dec fly
+            <button onclick="visaVideo('video-rear-pec-dec')">Visa video</button>
+
+            <div id="video-rear-pec-dec" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/dC7jhEk-29A"
+                    title="Rear delt pec dec fly"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Face pull
+            <button onclick="visaVideo('video-face-pull')">Visa video</button>
+
+            <div id="video-face-pull" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ljgqer1ZpXg"
+                    title="Face pull"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
-
-
-
-    <h3>Mage</h3>
-    <p>
-        intro - För en mer komplett magträning kan du välja en övning där överkroppen rör sig,
-        en där benen rör sig och en rotationsövning för de sneda magmusklerna. Fokusera extra hårt
-        på andningen under magträning.
-    </p>
-    <h4>Raka bukmuskeln</h4>
-    <ul>
-        <li>Cable crunch</li>
-        <li>Machine crunch</li>
-        <li>Plankan</li>
-        <li>Hanging leg raise</li>
-        <li>Ab wheel rollout</li>
-    </ul>
-        <h4>obliques(sneda magmuskler)</h4>
-    <ul>
-        <li>Cable woodchopper</li>
-        <li>Side plank</li>
-    </ul>
-
 
 
     <h3>biceps</h3>
@@ -148,14 +407,79 @@
     </p>
     <h4>biceps</h4>
     <ul>
-        <li>Dumbbell curl</li>
-        <li>Preacher curl</li>
-        <li>Cable curl</li>
+        <li>
+            Dumbbell curl
+            <button onclick="visaVideo('video-dumbbell-curl')">Visa video</button>
+
+            <div id="video-dumbbell-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/yTWO2th-RIY"
+                    title="Dumbbell curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Preacher curl
+            <button onclick="visaVideo('video-preacher-curl')">Visa video</button>
+
+            <div id="video-preacher-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/7v7uldi1eLU"
+                    title="Preacher curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Cable curl
+            <button onclick="visaVideo('video-cable-curl')">Visa video</button>
+
+            <div id="video-cable-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/NFzTWp2qpiE"
+                    title="Cable curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>brachialis och underarm</h4>
     <ul>
-        <li>Hammer curl</li>
-        <li>Reverse curl</li>
+        <li>
+            Hammer curl
+            <button onclick="visaVideo('video-hammer-curl')">Visa video</button>
+
+            <div id="video-hammer-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8XLxfXROrTo"
+                    title="Hammer curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Reverse curl
+            <button onclick="visaVideo('video-reverse-curl')">Visa video</button>
+
+            <div id="video-reverse-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ypfd1kaI1AU"
+                    title="Reverse curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
 
@@ -168,13 +492,65 @@
     </p>
     <h4>långa huvudet</h4>
     <ul>
-        <li>Overhead triceps extension dumbbell</li>
-        <li>Skull crusher</li>
+        <li>
+            Overhead dumbbell triceps extension
+            <button onclick="visaVideo('video-overhead-triceps-extension')">Visa video</button>
+
+            <div id="video-overhead-triceps-extension" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/fYqswDVbJDg"
+                    title="Overhead dumbbell triceps extension"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Skull crusher
+            <button onclick="visaVideo('video-skull-crusher')">Visa video</button>
+
+            <div id="video-skull-crusher" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/d_KZxkY_0cM"
+                    title="Skull crusher"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>övrig triceps</h4>
     <ul>
-        <li>Tricep pushdown</li>
-        <li>Close grip benchpress</li>
+        <li>
+            Tricep pushdown
+            <button onclick="visaVideo('video-tricep-pushdown')">Visa video</button>
+
+            <div id="video-tricep-pushdown" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/_w-HpW70nSQ"
+                    title="Tricep pushdown"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Close grip benchpress
+            <button onclick="visaVideo('video-close-grip-benchpress')">Visa video</button>
+
+            <div id="video-close-grip-benchpress" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/UYJsFzqdgK4"
+                    title="Close grip benchpress"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
     <h3>ben</h3>
@@ -185,40 +561,337 @@
     </p>
     <h4>quadriceps(framsida lår)</h4>
     <ul>
-        <li>Leg extension</li> (kommentar, kör inte mycket vikt då knän belastas)
-        <li>ben press (lägre fot placering)</li> (kommentar, lås inte knäna)
-        <li>Bulgarian split squat</li>
-        <li>Hacksquat</li>
+        <li>
+            Leg extension (kommentar, kör inte mycket vikt då knän belastas)
+            <button onclick="visaVideo('video-leg-extension')">Visa video</button>
+
+            <div id="video-leg-extension" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ljO4jkwv8wQ"
+                    title="Leg extension"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li> 
+        <li>
+            ben press (lägre fot placering)(kommentar, lås inte knäna)
+            <button onclick="visaVideo('video-ben-press')">Visa video</button>
+
+            <div id="video-ben-press" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/B6rGDcfyPto"
+                    title="Ben press"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li> 
+        <li>
+            Bulgarian split squat
+            <button onclick="visaVideo('video-bulgarian-split-squat')">Visa video</button>
+
+            <div id="video-bulgarian-split-squat" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/hiLF_pF3EJM"
+                    title="Bulgarian split squat"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Hacksquat
+            <button onclick="visaVideo('video-hacksquat')">Visa video</button>
+
+            <div id="video-hacksquat" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/0tn5K9NlCfo"
+                    title="Hacksquat"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     <h4>hamstrings(baksida lår)</h4>
     <ul>
-        <li>Seated/lying leg curl</li>
-        <li>Romanian deadlift</li>
-        <li>Ben press (hög fot placering)</li>
+        <li>
+            Seated leg curl
+            <button onclick="visaVideo('video-leg-curl')">Visa video</button>
+
+            <div id="video-leg-curl" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ELOCsoDSmrg"
+                    title="Seated leg curl"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Romanian deadlift
+            <button onclick="visaVideo('video-romanian-deadlift')">Visa video</button>
+
+            <div id="video-romanian-deadlift" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/5zmlnbWb-g4"
+                    title="Romanian deadlift"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Benpress (hög fot placering)
+            <button onclick="visaVideo('video-benpress-hög-fotplacering')">Visa video</button>
+
+            <div id="video-benpress-hög-fotplacering" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8jHikyjATQ8"
+                    title="Benpress hög fotplacering"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
     
     <h4>vader</h4>
     <ul>
-        <li>Calf raise</li>
+        <li>
+            Calf raise (på benpress maskin)
+            <button onclick="visaVideo('video-calf raise')">Visa video</button>
+
+            <div id="video-calf raise" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/PYZY00hI43w"
+                    title="Calf raise on leg press machine"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
     <h3>glutes(sätesmuskler)</h3>
     <ul>
-        <li>Hip Thrust</li>
-        <li>Cable kickback</li>
-        <li>Cable pullthrough</li>
+        <li>
+            Hip Thrust
+            <button onclick="visaVideo('video-hip-thrust')">Visa video</button>
+
+            <div id="video-hip-thrust" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xDmFkJxPzeM"
+                    title="Hip thrust"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Cable kickback
+            <button onclick="visaVideo('video-cable-kickback')">Visa video</button>
+
+            <div id="video-cable-kickback" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/dJa_Nf4zdik"
+                    title="Cable kickback"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Cable pullthrough
+            <button onclick="visaVideo('video-cable-pullthrough')">Visa video</button>
+
+            <div id="video-cable-pullthrough" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8oj-DT4ztX0"
+                    title="Cable pullthrough"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+    </ul>
+
+    <h3>Mage</h3>
+    <p>
+        intro - För en mer komplett magträning kan du välja en övning där överkroppen rör sig,
+        en där benen rör sig och en rotationsövning för de sneda magmusklerna. Fokusera extra hårt
+        på andningen under magträning.
+    </p>
+    <h4>Raka bukmuskeln</h4>
+    <ul>
+        <li>
+            Cable crunch
+            <button onclick="visaVideo('video-cable-crunch')">Visa video</button>
+
+            <div id="video-cable-crunch" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/aBd6T01PBqw"
+                    title="Cable crunch"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Machine crunch
+            <button onclick="visaVideo('video-machine-crunch')">Visa video</button>
+
+            <div id="video-machine-crunch" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/_O1xunCfYEM"
+                    title="Machine crunch"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Plankan
+            <button onclick="visaVideo('video-plankan')">Visa video</button>
+
+            <div id="video-plankan" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/6LqqeBtFn9M"
+                    title="Plankan"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Hanging leg raise
+            <button onclick="visaVideo('video-hanging-leg-raise')">Visa video</button>
+
+            <div id="video-hanging-leg-raise" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/Pr1ieGZ5atk"
+                    title="Hanging leg raise"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Ab wheel rollout
+            <button onclick="visaVideo('video-ab-wheel-rollout')">Visa video</button>
+
+            <div id="video-ab-wheel-rollout" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/A3uK5TPzHq8"
+                    title="Ab wheel rollout"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+    </ul>
+        <h4>obliques(sneda magmuskler)</h4>
+    <ul>
+        <li>
+            Cable woodchopper
+            <button onclick="visaVideo('video-cable-woodchopper')">Visa video</button>
+
+            <div id="video-cable-woodchopper" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/pAplQXk3dkU"
+                    title="Cable woodchopper"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Side plank
+            <button onclick="visaVideo('video-side-plank')">Visa video</button>
+
+            <div id="video-side-plank" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/YlF9mvIOo8I"
+                    title="Side plank"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
     <h3>compounds</h3>
     <p>intro</p>
     <ul>
-        <li>Bänkpress</li>
-        <li>Knäböj</li>
-        <li>Deadlift</li>
+        <li>
+            Bänkpress
+            <button onclick="visaVideo('video-bänkpress')">Visa video</button>
+
+            <div id="video-bänkpress" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/vthMCtgVtFw"
+                    title="Bänkpress"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Knäböj
+            <button onclick="visaVideo('video-knäböj')">Visa video</button>
+
+            <div id="video-knäböj" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/BZ1TUVr4LFk"
+                    title="Knäböj"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
+        <li>
+            Marklyft
+            <button onclick="visaVideo('video-marklyft')">Visa video</button>
+
+            <div id="video-marklyft" style="display: none;">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/hCDzSR6bW10"
+                    title="Marklyft"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </li>
     </ul>
 
 </main>
 <footer>
+    <p>Skriven och publicerad av Mattias Jansson</p>
 </footer>
+
+<script src="gym.js"></script>
+
 </body>
 </html>

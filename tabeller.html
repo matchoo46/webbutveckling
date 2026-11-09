@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kost</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Näringskällor</h1>
+
+<header class="top-header">
+    <div class="site-title">
+        <img src="bilder/logo.png" alt="Guide till gym och kost">
+    </div>
+
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="gym.html">Gym</a>
+        <a href="kost.html">Kost</a>
+    </nav>
 </header>
     
 <main>
+
+    <p>
+        Näringsvärden som visas är baserade på 100 gram råa livsmedel, om inget annat anges vid produktens namn.
+        Observera att näringsinnehållet kan variera mellan olika produkter och att denna lista därför visar ungefärliga genomsnittsvärden. 
+    </p>
+
+    <p>
+        Genom att klicka på kalorier, protein, kolhydrater eller fett sorteras listan i storleksordning, antingen från högst till lägst, eller från lägst till högst.
+    </p>
+
+    <div class="kategori-knappar">
+        <button onclick="visaKategori('kott')">Kött och animaliska produkter</button>
+        <button onclick="visaKategori('vaxtbaserat')">Växtbaserat</button>
+        <button onclick="visaKategori('kolhydrater')">Kolhydrater</button>
+        <button onclick="visaKategori('mejeri')">Mejeri</button>
+        <button onclick="visaKategori('fetter')">Fetter</button>
+    </div>
+<section id="kott">
     <h2>Kött och animaliska produkter</h2>
 
     <h3>Nötkött</h3>
@@ -27,24 +55,24 @@
         <tbody>
             <tr>
                 <td>Innanlår(lövbiff)</td>
-                <td data-value="108">~108 kcal</td>
-                <td data-value="22.2">~22 g</td>
+                <td data-value="108">108 kcal</td>
+                <td data-value="22.2">22,2 g</td>
                 <td data-value="0">0 g</td>
-                <td data-value="2">~2 g</td>
+                <td data-value="2">2 g</td>
             </tr>
             
             <tr>
                 <td>Rostbiff</td>
-                <td data-value="113">~113 kcal</td>
-                <td data-value="22.3">~22,3 g</td>
+                <td data-value="113">113 kcal</td>
+                <td data-value="22.3">22,3 g</td>
                 <td data-value="0">0 g</td>
-                <td data-value="2.7">~2,7 g</td>
+                <td data-value="2.7">2,7 g</td>
             </tr>
 
             <tr>
                 <td>Nötfärs 5%</td>
-                <td data-value="122">~122 kcal</td>
-                <td data-value="21.3">~21,3 g</td>
+                <td data-value="122">122 kcal</td>
+                <td data-value="21.3">21,3 g</td>
                 <td data-value="0">0 g</td>
                 <td data-value="5">5 g</td>
             </tr>
@@ -70,7 +98,7 @@
                 <td data-value="111">111 kcal</td>
                 <td data-value="22.1">22,1 g</td>
                 <td data-value="0">0 g</td>
-                <td data-value="2.5"> g</td>
+                <td data-value="2.5">2,5 g</td>
             </tr>
 
             <tr>
@@ -275,7 +303,7 @@
                 <td>Bacon, rökt/rimmat</td>
                 <td data-value="335">335 kcal</td>
                 <td data-value="13.5">13,5 g</td>
-                <td data-value="0">0,5 g</td>
+                <td data-value="0.5">0,5 g</td>
                 <td data-value="31">31 g</td>
             </tr>
 
@@ -720,7 +748,9 @@
             </tr>
         </tbody>
     </table>
+</section>
 
+<section id="vaxtbaserat">
     <h2>Växtbaserade proteinkällor</h2>
 
     <h3>Baljväxter och växtbaserade proteinprodukter</h3>
@@ -898,7 +928,7 @@
                 <td data-value="718">718 kcal</td>
                 <td data-value="7.9">7,9 g</td>
                 <td data-value="13.8">13,8 g</td>
-                <td data-value="75.8">78,8 g</td>
+                <td data-value="70.1">70,1 g</td>
             </tr>
         </tbody>
     </table>
@@ -964,7 +994,7 @@
             </tr>
 
             <tr>
-                <td>Vallmöfrön</td>
+                <td>Vallmofrön</td>
                 <td data-value="525">525 kcal</td>
                 <td data-value="18">18 g</td>
                 <td data-value="28.1">28,1 g</td>
@@ -972,10 +1002,12 @@
             </tr>
         </tbody>
     </table>
+</section>
 
+<section id="kolhydrater">
     <h2>Kolhydratskällor</h2>
 
-    <h3>Ris och Gryn</h3>
+    <h3>Ris och gryn</h3>
     <table class="nutrition-table">
         <thead>
             <tr>
@@ -1036,7 +1068,7 @@
             </tr>
 
             <tr>
-                <td>quinoa</td>
+                <td>Quinoa</td>
                 <td data-value="360">360 kcal</td>
                 <td data-value="13">13 g</td>
                 <td data-value="59">59 g</td>
@@ -1468,13 +1500,14 @@
                 <td data-value="8">8 g</td>
                 <td data-value="0.2">0,2 g</td>
             </tr>
-
         </tbody>
-    </table>    
+    </table>
+</section>
 
+<section id="mejeri">
     <h2>Mejeriprodukter</h2>
 
-    <h3>Mjölk och yogurt</h3>
+    <h3>Mjölk och yoghurt</h3>
     <table class="nutrition-table">
         <thead>
             <tr>
@@ -1495,7 +1528,7 @@
             </tr>
 
             <tr>
-                <td>Grekisk yogurt</td>
+                <td>Grekisk yoghurt</td>
                 <td data-value="59">59 kcal</td>
                 <td data-value="9.5">9,5 g</td>
                 <td data-value="4">4 g</td>
@@ -1503,7 +1536,7 @@
             </tr>
 
             <tr>
-                <td>Naturell yogurt</td>
+                <td>Naturell yoghurt</td>
                 <td data-value="60">60 kcal</td>
                 <td data-value="3.4">3,4 g</td>
                 <td data-value="3.8">3,8 g</td>
@@ -1511,7 +1544,7 @@
             </tr>
 
             <tr>
-                <td>Turkisk yogurt</td>
+                <td>Turkisk yoghurt</td>
                 <td data-value="120">120 kcal</td>
                 <td data-value="4.2">4,2 g</td>
                 <td data-value="4">4 g</td>
@@ -1725,6 +1758,10 @@
 
         </tbody>
     </table>
+</section>
+
+<section id="fetter">
+    <h2>Fetter</h2>
 
     <h3>Oljor och matfetter</h3>
     <table class="nutrition-table">
@@ -1828,9 +1865,16 @@
 
         </tbody>
     </table>
-
+</section>
 
 
 </main>
+
+<footer>
+    <p>Skriven och publicerad av Mattias Jansson</p>
+</footer>
+
+<script src="tabeller.js"></script>
+
 </body>
 </html>
